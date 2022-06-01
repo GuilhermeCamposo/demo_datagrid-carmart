@@ -65,9 +65,9 @@ The application will be running at the following URL: <http://localhost:8080/jbo
 
 NOTE: The application must be deployed to Red Hat JBoss Enterprise Application Platform (EAP).
 
-1. Obtain the DG server distribution. See the following for more information: <http://www.redhat.com/products/jbossenterprisemiddleware/data-grid/>. You can use this [server configuration][datagrid/infinispan.xml] to make sure that the demo will work.
+1. Obtain the DG server distribution. See the following for more information: <http://www.redhat.com/products/jbossenterprisemiddleware/data-grid/>. You can use this [server configuration](datagrid/infinispan.xml) to make sure that the demo will work.
 
-2. You will need an DG user for this demo. We are using the username "admin" and password "admin" as credentials for an admin user. If you want to use a different user, just change the configuration in [RemoteCacheContainerProvider.java][src/remote/java/org/jboss/as/quickstarts/datagrid/carmart/session/RemoteCacheContainerProvider.java]
+2. You will need an DG user for this demo. We are using the username "admin" and password "admin" as credentials for an admin user. If you want to use a different user, just change the configuration in [RemoteCacheContainerProvider.java](src/remote/java/org/jboss/as/quickstarts/datagrid/carmart/session/RemoteCacheContainerProvider.java)
 
 3. Start the DG server on localhost:
 
