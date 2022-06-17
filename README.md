@@ -98,7 +98,7 @@ Cache name: carcache
 
         $EAP_HOME/bin/standalone.sh
 
-5. The application finds the DG server using the values in t[RemoteCacheContainerProvider.java][src/remote/java/org/jboss/as/quickstarts/datagrid/carmart/session/RemoteCacheContainerProvider.java]. If you are not running the DG server on the default host and port, you must modify this file to contain the correct values.
+5. The application finds the DG server using the values in the [RemoteCacheContainerProvider.java](src/remote/java/org/jboss/as/quickstarts/datagrid/carmart/session/RemoteCacheContainerProvider.java). If you are not running the DG server on the default host and port, you must modify this file to contain the correct values.
 
 6. Build the application in the example's directory:
 
